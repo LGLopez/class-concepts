@@ -4,8 +4,10 @@ import Header from './components/Heading';
 
 function App() {
   return (
-    <div className="container-sm ">
-      <Header></Header>
+    <div>
+      <div className="bg-dark">
+        <Header></Header>
+      </div>
       <div>
         <button className="btn btn-dark">hola</button>
       </div>

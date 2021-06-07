@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function heading() {
+function Navigation() {
     return (
         <div className="container-sm">
             <nav className="navbar navbar-expand-sm navbar-dark">
@@ -31,4 +31,4 @@ function heading() {
     )
 }
 
-export default heading
+export default Navigation
